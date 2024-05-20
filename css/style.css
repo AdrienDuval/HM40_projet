@@ -9,6 +9,81 @@
     --border-bottom: 6px solid var(--questions-background);
   }
 
-  .header{
-    
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    background: rgb(121,85,42);
+    color: var(--color-body);
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* first block start*/
+
+  #background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    }
+
+
+.content1 {
+    max-width: 100%;
+    max-height: 100%;
+    background: url(../images/large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+  }
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+  }
+.header_logo {
+  
+    width: 70px;
+    height: 80px;
+  }
+
+  .h1,
+.paragraph,
+h2 {
+  color: var(--color-body);
+  text-align: center;
+}
+.h1 {
+  margin-top: 3rem;
+  font-size: 4rem;
+}
+.paragraph {
+  font-size: 0.9rem;
+}
+.first__para {
+  margin-top: 1.5rem;
+}
+.second__para {
+  margin: 0 4rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+}
+.button{
+    background: rgb(121,85,42); 
+    
+}
