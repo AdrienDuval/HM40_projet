@@ -1,0 +1,14 @@
+:root {
+    --color-button: #de0813;
+    --color-heading: #ffff;
+    --color-placeholder: #4b5e7c;
+    --border-radius: 2px;
+    --color-body: #fff;
+    --color-background: #000;
+    --questions-background: rgb(48, 48, 48);
+    --border-bottom: 6px solid var(--questions-background);
+  }
+
+  .header{
+    
+  }
